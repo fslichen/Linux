@@ -14,3 +14,4 @@ echo "Uncomment server_names_hash_bucket_size 64;"
 sudo nano /etc/nginx/nginx.conf
 sudo service nginx restart
 echo "Visit localhost"
+echo "Visit localhost/index.html"
