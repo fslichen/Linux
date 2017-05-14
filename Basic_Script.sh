@@ -4,5 +4,6 @@ echo "Ready to list the files"
 ls
 echo "Ready to print the working directory."
 pwd
-
+echo "Print CPU architecture."
+lscpu | grep mode
 
