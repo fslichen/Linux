@@ -28,3 +28,7 @@ then
 else
   echo "You cannot do anything to If_Script.sh."
 fi
+
+if [ -f script.sh ]; then
+    echo “File is Found.”
+fi
