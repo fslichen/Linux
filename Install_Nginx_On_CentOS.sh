@@ -6,3 +6,5 @@ sudo yum install epel-release
 sudo yum install nginx
 # Start nginx.
 sudo systemctl start nginx
+# Open your browser and test.(Do not add 8080 yet)
+localhost
